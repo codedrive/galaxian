@@ -1,0 +1,87 @@
+<Galaxians HeroLivesCount="3">
+  <EnemyUnits>
+    <EnemyUnit Symbol="0" Graphics="Shooter" HueShiftAngle="50"
+    Score="70" BulletSpeed="500" FireDelay="0"
+    SpeedDecreaseBonus="2" MultiFireBonus="0" SqueezeFireBonus="1"
+    LifeBonus="2" RandomKillBonus="0" />
+    <EnemyUnit Symbol="1" Graphics="Regular" HueShiftAngle="160"
+    Score="50" BulletSpeed="400" FireDelay="0"
+    SpeedDecreaseBonus="2" MultiFireBonus="2" SqueezeFireBonus="1"
+    LifeBonus="0" RandomKillBonus="0" />
+    <EnemyUnit Symbol="2" Graphics="Regular" HueShiftAngle="100"
+    Score="30" BulletSpeed="300" FireDelay="1"
+    SpeedDecreaseBonus="0" MultiFireBonus="1" SqueezeFireBonus="0"
+    LifeBonu="0" RandomKillBonus="0" />
+    <EnemyUnit Symbol="3" Graphics="Regular" HueShiftAngle="50"
+    Score="5" BulletSpeed="0" FireDelay="2" SpeedDecreaseBonus="0"
+    MultiFireBonus="0" SqueezeFireBonus="0" LifeBonus="0"
+    RandomKillBonus="0" />
+    <EnemyUnit Symbol="4" Graphics="Fly" HueShiftAngle="70"
+    Score="10" BulletSpeed="100" FireDelay="0"
+    SpeedDecreaseBonus="0" MultiFireBonus="0" SqueezeFireBonus="0"
+    LifeBonus="0" RandomKillBonus="0" />
+    <EnemyUnit Symbol="5" Graphics="Fly" HueShiftAngle="300"
+    Score="10" BulletSpeed="0" FireDelay="0" SpeedDecreaseBonus="0"
+    MultiFireBonus="0" SqueezeFireBonus="0" LifeBonus="0"
+    RandomKillBonus="0" />
+    <EnemyUnit Symbol="6" Graphics="Fly" HueShiftAngle="330"
+    Score="10" BulletSpeed="100" FireDelay="0"
+    SpeedDecreaseBonus="0" MultiFireBonus="0" SqueezeFireBonus="0"
+    LifeBonus="0" RandomKillBonus="0" />
+    <EnemyUnit Symbol="7" Graphics="Shooter" HueShiftAngle="150"
+    Score="90" BulletSpeed="500" FireDelay="0"
+    SpeedDecreaseBonus="0" MultiFireBonus="2" SqueezeFireBonus="1"
+    LifeBonus="1" RandomKillBonus="0" />
+	<EnemyUnit Symbol="8" Graphics="Shooter" HueShiftAngle="210"
+    Score="80" BulletSpeed="300" FireDelay="0"
+    SpeedDecreaseBonus="0.8" MultiFireBonus="1" SqueezeFireBonus="0"
+    LifeBonus="1" RandomKillBonus="0" />
+  </EnemyUnits>
+  <Levels>
+    <Level Score="100" EnemyArmyInitialSpeed="100"
+    EnemyArmyMaximumSpeed="250" EnemyArmyAcceleration="0.2"
+    EnemyArmyMoveDownDistance="7" HeroBulletSpeed="1000">
+      <EnemyLine1 Enemies="33333333333" />
+      <EnemyLine2 Enemies="333_323_333" />
+      <EnemyLine3 Enemies="_133303331_" />
+      <EnemyLine4 Enemies="333_333_333" />
+      <EnemyLine5 Enemies="33333233333" />
+    </Level>
+    <Level Score="200" EnemyArmyInitialSpeed="30"
+EnemyArmyMaximumSpeed="250" EnemyArmyAcceleration="0.2"
+EnemyArmyMoveDownDistance="15" HeroBulletSpeed="1000">
+      <EnemyLine1 Enemies="16333333361" />
+      <EnemyLine2 Enemies="3_3_333_3_3" />
+      <EnemyLine3 Enemies="33313331333" />
+      <EnemyLine4 Enemies="6_3333333_6" />
+      <EnemyLine5 Enemies="33___0___33" />
+    </Level>
+    <Level Score="300" EnemyArmyInitialSpeed="50"
+EnemyArmyMaximumSpeed="250" EnemyArmyAcceleration="0.3"
+EnemyArmyMoveDownDistance="10" HeroBulletSpeed="1000">
+      <EnemyLine1 Enemies="15575A57551" />
+      <EnemyLine2 Enemies="_355555553_" />
+      <EnemyLine3 Enemies="__3557553__" />
+      <EnemyLine4 Enemies="___35553___" />
+      <EnemyLine5 Enemies="____515____" />
+    </Level>
+    <Level Score="400" EnemyArmyInitialSpeed="30"
+      EnemyArmyMaximumSpeed="250" EnemyArmyAcceleration="0.3"
+      EnemyArmyMoveDownDistance="15" HeroBulletSpeed="1100">
+      <EnemyLine1 Enemies="85555555558" />
+      <EnemyLine2 Enemies="55522622555" />
+      <EnemyLine3 Enemies="6__35753__5" />
+      <EnemyLine4 Enemies="5__52525__5" />
+      <EnemyLine5 Enemies="55555555555" />
+    </Level>
+    <Level Score="500" EnemyArmyInitialSpeed="10"
+      EnemyArmyMaximumSpeed="250" EnemyArmyAcceleration="0.3"
+      EnemyArmyMoveDownDistance="7" HeroBulletSpeed="1200">
+      <EnemyLine1 Enemies="_0__505_506" />
+      <EnemyLine2 Enemies="4_4_5_____5" />
+      <EnemyLine3 Enemies="3_3_515__65" />
+      <EnemyLine4 Enemies="333___5___5" />
+      <EnemyLine5 Enemies="3_3_535_636" />
+    </Level>
+  </Levels>
+</Galaxians>

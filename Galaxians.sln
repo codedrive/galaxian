@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{5C44EADE-F477-4881-8452-AB024764F963}") = "Galaxians", "Galaxians\Galaxians.cdproj", "{EB5DE7FF-ACE0-4B72-A5FD-335D7157F640}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB5DE7FF-ACE0-4B72-A5FD-335D7157F640}.Debug|Default.ActiveCfg = Debug
+		{EB5DE7FF-ACE0-4B72-A5FD-335D7157F640}.Debug|Default.Build.0 = Debug
+		{EB5DE7FF-ACE0-4B72-A5FD-335D7157F640}.Release|Default.ActiveCfg = Release
+		{EB5DE7FF-ACE0-4B72-A5FD-335D7157F640}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

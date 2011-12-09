@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Type="Project" Version="3.0.0"  xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Galaxians</Name>
+    <Description>ActionScript 3 game sample</Description>
+    <Icon>Galaxians_icon.ico</Icon>
+    <ProjectType>CodeDrive</ProjectType>
+    <CreateNewFolder>true</CreateNewFolder>
+    <LocationField>Enabled</LocationField>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <DefaultName>Galaxians</DefaultName>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="Galaxians_template.cdproj" TargetFileName="Galaxians.cdproj" ReplaceParameters="true">
+      <ProjectItem OpenInEditor="true" ReplaceParameters="true">Source\Main.as</ProjectItem>
+      <ProjectItem>Source\Galaxians.xml</ProjectItem>
+
+      <ProjectItem>Source\codedrive\galaxians\EnemyBullet.as</ProjectItem>
+      <ProjectItem>Source\codedrive\galaxians\EnemyUnit.as</ProjectItem>
+      <ProjectItem>Source\codedrive\galaxians\GalaxiansGame.as</ProjectItem>
+      <ProjectItem>Source\codedrive\galaxians\GameConstants.as</ProjectItem>
+      <ProjectItem>Source\codedrive\galaxians\GameInformation.as</ProjectItem>
+      <ProjectItem>Source\codedrive\galaxians\GamePlayScreen.as</ProjectItem>
+      <ProjectItem>Source\codedrive\galaxians\GameStartScreen.as</ProjectItem>
+      <ProjectItem>Source\codedrive\galaxians\HeroBullet.as</ProjectItem>
+      <ProjectItem>Source\codedrive\galaxians\HeroUnit.as</ProjectItem>
+      <ProjectItem>Source\codedrive\galaxians\IGameElement.as</ProjectItem>
+      
+            
+      <ProjectItem>Source\codedrive\galaxians\data\EnemyUnitData.as</ProjectItem>
+      <ProjectItem>Source\codedrive\galaxians\data\GameData.as</ProjectItem>
+      <ProjectItem>Source\codedrive\galaxians\data\GameLevelData.as</ProjectItem>
+
+      <ProjectItem>Resources\CongratulationsText.swf</ProjectItem>
+      <ProjectItem>Resources\EnemyBulletSprite.swf</ProjectItem>
+      <ProjectItem>Resources\EnemyFlyUnitSprite.swf</ProjectItem>
+      <ProjectItem>Resources\EnemyRegularUnitSprite.swf</ProjectItem>
+      <ProjectItem>Resources\EnemyShooterUnitSprite.swf</ProjectItem>
+      <ProjectItem>Resources\GameOverText.swf</ProjectItem>
+      <ProjectItem>Resources\GamePlayScreenBackground.swf</ProjectItem>
+      <ProjectItem>Resources\GameStartScreenBackground.swf</ProjectItem>
+      <ProjectItem>Resources\HeroBulletSprite.swf</ProjectItem>
+      <ProjectItem>Resources\HeroUnitSprite.swf</ProjectItem>
+      <ProjectItem>Resources\MultiFireIcon.swf</ProjectItem>
+      <ProjectItem>Resources\SqueezeFireIcon.swf</ProjectItem>
+      <ProjectItem>Resources\StartGameButton.swf</ProjectItem>
+
+
+    </Project>
+  </TemplateContent>
+</VSTemplate>

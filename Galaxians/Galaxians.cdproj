@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Clean;Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectTypeGuid>{CAB34F91-9657-4062-8D66-773B7E5432A1}</ProjectTypeGuid>
+    <ProjectName>Galaxians</ProjectName>
+    <SchemaVersion>1.0</SchemaVersion>
+    <TargetVersion>10.1</TargetVersion>
+    <DocumentClass>Main</DocumentClass>
+    <SourceFolders>Source</SourceFolders>
+    <SwfWidth>740</SwfWidth>
+    <SwfHeight>740</SwfHeight>
+    <SwfFrameRate>24</SwfFrameRate>
+    <SwfBackground>#000000</SwfBackground>
+    <!--GenerateHtml Settings-->
+    <HtmlGeneratePlayAtStart>True</HtmlGeneratePlayAtStart>
+    <HtmlGenerateLoop>True</HtmlGenerateLoop>
+    <HtmlGenerateDisplayMenu>True</HtmlGenerateDisplayMenu>
+    <HtmlGenerateDeviceFont>False</HtmlGenerateDeviceFont>
+    <HtmlGenerateQuality>Best</HtmlGenerateQuality>
+    <HtmlGenerateScale>ShowAll</HtmlGenerateScale>
+    <HtmlGenerateWindowMode>Window</HtmlGenerateWindowMode>
+    <HtmlGenerateWidthPixels>550</HtmlGenerateWidthPixels>
+    <HtmlGenerateHeightPixels>400</HtmlGenerateHeightPixels>
+    <HtmlGenerateWidthPercent>100</HtmlGenerateWidthPercent>
+    <HtmlGenerateHeightPercent>100</HtmlGenerateHeightPercent>
+    <HtmlGenerateDimensions>MatchMovie</HtmlGenerateDimensions>
+    <HtmlGenerateAllowNetworking>All</HtmlGenerateAllowNetworking>
+    <HtmlGenerateAllowScriptAccess>Always</HtmlGenerateAllowScriptAccess>
+    <HtmlGenerateAllowFullScreen>True</HtmlGenerateAllowFullScreen>
+    <HtmlGenerateBackgroundColorType>MatchMovie</HtmlGenerateBackgroundColorType>
+    <HtmlGenerateBackgroundColor>#FFFFFF</HtmlGenerateBackgroundColor>
+    <HtmlGenerateFlashVars>
+    </HtmlGenerateFlashVars>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>Bin\$(Configuration)\</OutputPath>
+    <OutputFileName>$(ProjectName).swf</OutputFileName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>Bin\$(Configuration)\</OutputPath>
+    <OutputFileName>$(ProjectName).swf</OutputFileName>
+  </PropertyGroup>
+  <ItemGroup>
+    <SwfResource Include="Resources\EnemyBulletSprite.swf">
+      <SubType>SwfClip</SubType>
+      <ExportName>EnemyBulletSprite</ExportName>
+    </SwfResource>
+    <SwfResource Include="Resources\EnemyFlyUnitSprite.swf">
+      <SubType>SwfClip</SubType>
+      <ExportName>EnemyFlyUnitSprite</ExportName>
+    </SwfResource>
+    <SwfResource Include="Resources\EnemyRegularUnitSprite.swf">
+      <SubType>SwfClip</SubType>
+      <ExportName>EnemyRegularUnitSprite</ExportName>
+    </SwfResource>
+    <SwfResource Include="Resources\EnemyShooterUnitSprite.swf">
+      <SubType>SwfClip</SubType>
+      <ExportName>EnemyShooterUnitSprite</ExportName>
+    </SwfResource>
+    <SwfResource Include="Resources\EnemyUnitExplode.swf">
+      <SubType>SwfClip</SubType>
+      <ExportName>EnemyUnitExplode</ExportName>
+    </SwfResource>
+    <SwfResource Include="Resources\FireSound.wav">
+      <SubType>Sound</SubType>
+      <ExportName>FireSound</ExportName>
+      <Bitrate>0</Bitrate>
+      <SampleRate>0</SampleRate>
+    </SwfResource>
+    <SwfResource Include="Resources\GameOverText.swf">
+      <SubType>SwfClip</SubType>
+      <ExportName>GameOverText</ExportName>
+    </SwfResource>
+    <SwfResource Include="Resources\GamePlayScreenBackground.swf">
+      <SubType>SwfClip</SubType>
+      <ExportName>GamePlayScreenBackground</ExportName>
+    </SwfResource>
+    <SwfResource Include="Resources\GameStartScreenBackground.swf">
+      <SubType>SwfClip</SubType>
+      <ExportName>GameStartScreenBackground</ExportName>
+    </SwfResource>
+    <SwfResource Include="Resources\HeroBulletSprite.swf">
+      <SubType>SwfClip</SubType>
+      <ExportName>HeroBulletSprite</ExportName>
+    </SwfResource>
+    <SwfResource Include="Resources\HeroUnitExplode.swf">
+      <SubType>SwfClip</SubType>
+      <ExportName>HeroUnitExplode</ExportName>
+    </SwfResource>
+    <SwfResource Include="Resources\HeroUnitSprite.swf">
+      <SubType>SwfClip</SubType>
+      <ExportName>HeroUnitSprite</ExportName>
+    </SwfResource>
+    <SwfResource Include="Resources\MultiFireIcon.swf">
+      <SubType>SwfClip</SubType>
+      <ExportName>MultiFireIcon</ExportName>
+    </SwfResource>
+    <SwfResource Include="Resources\SoundOff.swf">
+      <SubType>SwfClip</SubType>
+      <ExportName>SoundOff</ExportName>
+    </SwfResource>
+    <SwfResource Include="Resources\SoundOn.swf">
+      <SubType>SwfClip</SubType>
+      <ExportName>SoundOn</ExportName>
+    </SwfResource>
+    <SwfResource Include="Resources\SqueezeFireIcon.swf">
+      <SubType>SwfClip</SubType>
+      <ExportName>SqueezeFireIcon</ExportName>
+    </SwfResource>
+    <SwfResource Include="Resources\StartGameButton.swf">
+      <SubType>SwfClip</SubType>
+      <ExportName>StartGameButton</ExportName>
+    </SwfResource>
+    <SwfResource Include="Resources\CongratulationsText.swf">
+      <SubType>SwfClip</SubType>
+      <ExportName>CongratulationsText</ExportName>
+    </SwfResource>
+    <SwfResource Include="Source\Galaxians.xml">
+      <SubType>BinaryArray</SubType>
+      <ExportName>GalaxiansXmlData</ExportName>
+    </SwfResource>
+  </ItemGroup>
+  <Import Project="$(RioBuildPath)\Rio.targets" />
+</Project>
